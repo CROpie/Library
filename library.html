@@ -14,11 +14,49 @@
 
 
     <div id="complete-container">
-        <div id="main">main
-            <button type="button" id="toggle-form">TOGGLE</button>
+        <div id="main">
+            <div id="header">
+                <h1>Library</h1>
+                <button type="button" id="button-display">Display</button>
+                <button type="button" id="toggle-form">New</button>
+            </div>
+            <div id="card-display">
+
+
+            </div>
+            
         </div>
 
-        <div id="form" style="display: none">form
+        <div id="form" style="display: none">Add New Book
+            <div class="input-div">
+                <label for="title-input">Title:</label>
+                <input type="text" id="title-input">
+            </div>
+
+            <div class="input-div">
+                <label for="author-input">Author:</label>
+                <input type="text" id="author-input">
+            </div>
+
+            <div class="input-div">
+                <label for="pages-input"># Pages:</label>
+                <input type="number" id="pages-input">
+            </div>
+
+            <div class="input-div">
+                <fieldset>
+                    <legend>Have you read the book?</legend>
+                <label for="readyes-input">Yes</label>
+                <input type="radio" id="readyes-input" name="readyesno" value="yes">
+                <label for="readno-input">No</label>
+                <input type="radio" id="readno-input" name="readyesno" value="no">
+            </fieldset>
+            </div>
+            <div class="input-div">
+                <button type="button" id="button-input">Submit New Book</button>
+            </div>
+
+
         </div>
     </div>
 
